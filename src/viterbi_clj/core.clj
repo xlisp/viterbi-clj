@@ -1,6 +1,3 @@
-(ns viterbi-clj.core)
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(ns viterbi-clj.core
+  (:import (com.hankcs.algorithm Viterbi DoctorExample)
+           (com.hankcs.algorithm DoctorExample$Status DoctorExample$Feel)))
